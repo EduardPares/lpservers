@@ -6,10 +6,13 @@
 </head>
 <body>
 
+
 <div id="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a class="dreta" href="#contact">Contact</a>
+
 </div>
 
 <div style="padding:15px 15px 2500px;font-size:30px;margin-top:30px;">
