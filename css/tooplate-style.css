@@ -109,7 +109,7 @@ http://www.tooplate.com/view/2098-health
   .section-btn {
     background: #408cd3;
     border: 0;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #ffffff;
     font-size: inherit;
     font-weight: 500;
@@ -224,7 +224,7 @@ http://www.tooplate.com/view/2098-health
 
   .spinner {
     border: 1px solid transparent;
-    border-radius: 3px;
+    border-radius: 5px;
     position: relative;
   }
 
@@ -329,7 +329,7 @@ http://www.tooplate.com/view/2098-health
 
   .navbar-default .navbar-nav li.appointment-btn a {
     background: #408cd3;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #ffffff;
     font-weight: 600;
     padding-top: 12px;
@@ -763,7 +763,7 @@ http://www.tooplate.com/view/2098-health
   #appointment .form-control {
     background: #f9f9f9;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: none;
     font-size: 14px;
     font-weight: normal;
@@ -889,7 +889,8 @@ http://www.tooplate.com/view/2098-health
   .angle-up-btn a {
     background: #ffffff;
     border: 1px solid #f2f2f2;
-    border-radius: 3px;
+    border-radius: 5
+    px;
     font-size: 20px;
     color: #393939;
     display: inline-block;
