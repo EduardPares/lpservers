@@ -1,13 +1,59 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
 
-body {
-  
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+  line-height: inherit;
 }
+
+h1,h2,h3,h4 {
+  letter-spacing: -1px;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  color: #252525;
+  font-size: 5em;
+}
+
+h2 {
+  color: #272727;
+  font-size: 3em;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.8em;
+  line-height: 1.2em;
+  margin-bottom: 0;
+}
+
+h4 {
+  color: #454545;
+  font-size: 1.8em;
+  padding-bottom: 2px;
+}
+
+h6 {
+  letter-spacing: 0;
+  font-weight: normal;
+}
+
+p {
+  color: #757575;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+
 body {
-  background-image: url("../images/slider2.jpg");
+  background-image: url("../images/slider2.jpg") !important;
   background-size: cover;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
 }
@@ -16,7 +62,8 @@ input, button{
 }
 
 .login-page {
-  width: 360px;
+  /* width: 360px; */
+  width: 90%;
   padding: 8% 0 0;
   margin: auto;
 }
@@ -104,4 +151,34 @@ input, button{
 }
 .container .info span .fa {
   color: #EF3B3A;
+}
+
+#logom {
+  position: absolute;
+  position: relative;
+  width: 45px;
+  top: -13px;
+  margin-left: -3.5px;
+  margin-right: 3px;
+  float: left;
+}
+
+#logodiv{
+  position: absolute;
+  background-color: #FFFFFF;
+  width: auto;
+  height: auto;
+  right: 0px;
+  bottom: 0px;
+  padding: 17px;
+  padding-bottom: 0px;
+  opacity: .7;
+  border-top-left-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  transition: opacity .4s ease-in-out;
+  cursor: pointer;
+}
+
+#logodiv:hover{
+opacity: 1;
 }
